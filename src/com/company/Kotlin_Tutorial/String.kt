@@ -15,7 +15,24 @@ fun main(){
            Sitamarhi
                 Bihar
                 """
-    print(address)
+    println(address)
 
+    println(firstName[0])
 
+    println("First Name $firstName Last Name $lastName")
+
+    //Structural equality (==)
+
+    val a="hello"
+    val b="hello"
+
+    println(a==b)
+    println(a!=b)
+
+    //Referential equality (===)
+
+    val str1 = buildString { "string value" }
+    val str2 = buildString { "string value" }
+    println(str1===str2)
+    println(str1!==str2)
 }

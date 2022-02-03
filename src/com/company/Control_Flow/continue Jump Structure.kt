@@ -6,7 +6,6 @@ fun main(){
             println("i= $i and j=$j")
             if (i==2){
                 continue@labelname
-
             }
         }
     }
