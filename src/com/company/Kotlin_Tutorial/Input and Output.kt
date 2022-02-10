@@ -4,12 +4,12 @@ import java.util.*
 
 fun main(){
     println("Enter your name")
-    val name= readln()
+    //val name= readln()
     println("Enter your age")
-    val age= readln()
+   // val age= readln()
 
-    println(name)
-    println(age)
+   // println(name)
+  //  println(age)
 
     val read=Scanner(System.`in`)
     val address=read.next()
