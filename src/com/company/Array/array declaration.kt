@@ -15,6 +15,10 @@ fun main(){
     for (i in array1){
         println(i)
     }
+    println("iterating the loop")
+    for (i in array1){
+        println(i)
+    }
 
     //direct access the particular element
     println(array1.get(2))
