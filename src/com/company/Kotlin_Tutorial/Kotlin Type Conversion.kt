@@ -6,7 +6,7 @@ fun main(){
 
     println(number)
 
-    var a=25
+    var a=25000
     val b:Int=a.toInt()
     println(b)
 
