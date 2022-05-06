@@ -12,6 +12,6 @@ fun main(){
   //  println(age)
 
     val read=Scanner(System.`in`)
-    val address=read.next()
+    var address=read.nextLine()
     println(address)
 }
