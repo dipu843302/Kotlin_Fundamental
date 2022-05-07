@@ -40,4 +40,16 @@ fun main(){
         in 4..6-> println("range 4 to 6")
         else -> println("none of these")
     }
+
+    var a=5
+    when(a){
+        in 1..5-> {
+            println("Hey")
+            println("Hello")
+        }
+        in 6..10->{
+            println("How are you ?")
+            println("Are you good ?")
+        }
+    }
 }
