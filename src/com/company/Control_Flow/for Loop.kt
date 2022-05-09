@@ -6,7 +6,7 @@ fun main(){
     var array= arrayOf(10,20,30,40)
 
     for (i in array){
-      //  println(i)
+        println(i)
     }
 
 
