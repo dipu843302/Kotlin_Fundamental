@@ -7,4 +7,9 @@ fun main(){
         i++
     }
     while (i<5)
+    var j=1
+    do{
+        println(j)
+        j++
+    }while (j<0)
 }
