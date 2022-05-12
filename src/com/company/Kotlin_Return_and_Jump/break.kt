@@ -1,15 +1,14 @@
 package com.company.Kotlin_Return_and_Jump
 
 fun main() {
-    for (i in 1..5){
-        if (i==3)
-            break
-        println(i)
-    }
+    var arraylist=ArrayList<String>()
+    arraylist.add("ram")
+    arraylist.add("shyam")
+    arraylist.add("mohan")
 
-    for (i in 1..4){
-        if (i==2)
-            continue
-        println(i)
+    var string=""
+    for (i in arraylist){
+        string=string+i
+        println(string)
     }
 }
