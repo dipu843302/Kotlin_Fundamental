@@ -19,13 +19,6 @@ fun factorial(number: Int): Long {
     }
 }
 
- fun factorialNumber(n: Int, run: Int = 1): Long {
-    return if (n == 1){
-        run.toLong()
-    } else {
-        factorialNumber(n-1, run*n)
-    }
-}
 //Working process of above factorial example
 /*
 factorial(5)
@@ -38,5 +31,12 @@ factorial(5)
          return 3*2 = 6
       return 4*6 = 24
    return 5*24 = 120
-
  */
+
+ tailrec fun factorialNumber(n: Int, run: Int = 1): Long {
+    return if (n == 1){
+        run.toLong()
+    } else {
+        factorialNumber(n-1, run*n)
+    }
+}
