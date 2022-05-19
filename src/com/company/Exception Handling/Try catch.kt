@@ -3,6 +3,7 @@ package com.company.`Exception Handling`
 fun main() {
     val str = getNumber("10")
     println(str)
+    println(getNumber("10.5"))
 }
 
 fun getNumber(s: String): Int {
@@ -12,3 +13,5 @@ fun getNumber(s: String): Int {
         0
     }
 }
+
+
